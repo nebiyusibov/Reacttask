@@ -1,0 +1,7 @@
+.container_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(53, 140, 216);
+    min-height: 300px;
+}

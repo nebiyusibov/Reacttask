@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.nav_section_container{
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    display: flex;
+    justify-content: center;
+    min-height: 750px;
+}
+.div_section_container{
+    width: 100%;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 44px 0px;
+}
+nav h3{
+   color: white;
+   font-size: 24px; 
+}
+nav ul{
+display: flex;
+align-items: center;
+gap: 20px;
+color: white;
+font-size: 14px;
+margin-left: 50px;
+}
+nav .icon_number{
+display:flex ;
+align-items: center;
+gap: 5px;
+color: white;
+margin-right: 50px;
+
+}
+nav .icon_number .icon{
+    font-size: 11px;
+    padding: 12px;
+    border-radius: 50%;
+    background-color: #00f2fe;
+}
+.section_container{
+    display: flex;
+    justify-content: space-around;
+    min-height: 550px;
+}
+.section_container .div_text{
+max-width: 500px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+color: white;
+row-gap: 20px;
+}
+.section_container .div_text h1{
+    font-size: clamp(2.5rem, 2.1875rem + 1.25vw, 3.125rem);
+}
+.section_container .div_img{
+max-width: 650px;
+min-height: 450px;
+display: flex;
+align-items: center;
+}
+.section_container .div_img img{
+    width: 100%;
+}
+.section_container .div_text .section_container_btn{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+
+}
+.section_container .div_text .section_container_btn .btn1{
+    padding: 13px 30px;
+    background-color: #0099e5;
+    border-radius: 30px;
+    border: 0px;
+    color: white;
+}
+.section_container .div_text .section_container_btn a{
+   display: flex;
+   align-items: center;
+   color: white;
+   font-size: 15px;
+   font-weight: 400;
+}
